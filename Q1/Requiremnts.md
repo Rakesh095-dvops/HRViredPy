@@ -37,3 +37,17 @@ Test_passwordValidator.py .....                                                 
 
 ```
 ## Test results-console 
+
+```
+Enter your password (or Ctrl+C to exit): sHort1!
+Password must be at least 8 characters long.
+Please try again...
+Enter your password (or Ctrl+C to exit): uppercases
+Password must contain at least one uppercase letter.
+Please try again...
+Enter your password (or Ctrl+C to exit): LOWERCASES
+Password must contain at least one lowercase letter.
+Please try again...
+Enter your password (or Ctrl+C to exit): P@@ssW~rd@25
+Password is strong.
+```
