@@ -12,8 +12,7 @@ SCS_PASSWORD_STRNG="Password is strong."
 
 
 def check_password_strength(password):
-    regex = r"^(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%])(?=.*\d)[a-zA-Z0-9!@#$%]{8,}$"
-
+   
     if len(password) < 8:
         return False,EXP_CHAR_MSG
 
@@ -28,11 +27,7 @@ def check_password_strength(password):
 
     if not re.search(r"[!@#\$%]", password):
         return False,EXP_SPLCHAR_MSG
-    
-    #to capture other password validate case
-    if re.search(regex,password) == None:
-        return False,EXP_MSL_MSG
-    
+        
     return True, SCS_PASSWORD_STRNG
         
 

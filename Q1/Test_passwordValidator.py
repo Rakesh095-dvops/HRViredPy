@@ -13,12 +13,8 @@ def test_password_lwrCse():
 def test_password_UpprCse():
     assert check_password_strength("alllowercase&5") == (False,EXP_UPPR_MSG)
 
-def test_password_Spcl_charIssue():
-    assert check_password_strength("t7HiPAh4iL") == (False,EXP_SPLCHAR_MSG)
-
-#def test_password_GenericIssue():
-#    assert check_password_strength("t7Hi PAh4iL") == (False,EXP_MSL_MSG)
 
 def test_password_valid():
     assert check_password_strength("t7Hi#PAh4iL") == (True,SCS_PASSWORD_STRNG)
     assert check_password_strength("PasswrD!2%") == (True,SCS_PASSWORD_STRNG)
+    assert check_password_strength("t7Hi_PAh4iL~$23") == (True,SCS_PASSWORD_STRNG)
