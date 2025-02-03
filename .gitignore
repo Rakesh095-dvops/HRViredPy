@@ -1,3 +1,8 @@
+# ignore all directories with the name test
+Q1\__pycache__
+Q1\.pytest_cache
+# trying to negate a file inside an ignored directory won't work
+#!test/example.md
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
