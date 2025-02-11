@@ -9,7 +9,7 @@
 Test results-postman [POST] request/response
 ![alt text](images/0_PostSeverConfig.png)
 
-## Test resulsts-postman [GET] request/response
+## Test results-postman [GET] request/response
 
 ![alt text](images/0_GETSeverConfig.png)
 
@@ -17,8 +17,9 @@ Test results-postman [POST] request/response
 Test results-postman [POST] request/response
 ![alt text](images/1_PostSeverConfig.png)
 
-## Test resulsts-postman [GET] request/response
+## Test results-postman [GET] request/response
 
 ![alt text](images/1_GETSeverConfig.png)
 
-
+## Test results - MongoDB snapshot
+![alt text](images/1_PostMNGdbResults.png)
