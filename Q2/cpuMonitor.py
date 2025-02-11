@@ -23,8 +23,6 @@ def main():
         print(f"\nAn unexpected error occurred: {e}")
 
 
-
-
 if __name__ == '__main__':
     #print(psutil.cpu_percent(interval=1, percpu=True))
     print("Monitoring CPU usage...")
