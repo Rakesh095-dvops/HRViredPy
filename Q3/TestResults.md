@@ -1,9 +1,9 @@
 # Test scenarios using PostMan
 ## Collection is empty 
-![alt text](images\Empty_collection.png)
+![alt text](images/Empty_collection.png)
 
 ## Test results-postman 
-![alt text](images\Empty_collection_result.png)
+![alt text](images/Empty_collection_result.png)
 
 ## Providing config file as per the use case
 Test results-postman [POST] request/response
