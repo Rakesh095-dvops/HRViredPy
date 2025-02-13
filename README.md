@@ -1,10 +1,10 @@
 # Project Title
 
-This Project contains solution contains sample solutions for few problem statements using python.
+This project includes sample solutions for several problem statements using Python.
 
 ## Getting Started
 
-This Repository has problem statment recoreder in their respective folder. Problem stament are mentioned in Requirments.md and testresults are mentioend in TestResults.md . 
+This repository contains problem statements organized in their respective folders. The problem statements are detailed in Requirements.md, and the test results are documented in TestResults.md.
 ```
 Q1|
   --->Requirments.md
@@ -45,9 +45,9 @@ $ python -m pytest .\Test_passwordValidator.py
 
 ### Branches
 
-* Main: Branch has complete Final solution of the project 
+* Main: The main branch contains the complete final solution of the project. Kindly fork the repository to test solution locally. 
 * etc...
 
 ## Additional Documentation and Acknowledgments
-* learn more about  postman - https://www.postman.com/learn/
-* learn more about  mongodb - https://learn.mongodb.com/
+* Discover more about Postman: Postman Learning Center -https://www.postman.com/learn/
+* Explore MongoDB resources: MongoDB University - - https://learn.mongodb.com/
